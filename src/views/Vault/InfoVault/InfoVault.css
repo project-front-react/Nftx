@@ -1,0 +1,152 @@
+@media (max-width: 768px) {
+    .priceDiv-main{
+        margin-top: 54px;
+        /* color: red  !important; */
+    }
+    .InfoPricesLayout{
+        flex-direction: column !important;
+    }
+    .InfoPricesContent{
+        width: 100% !important;
+        padding: 0 4%;
+    }
+}
+@media (min-width: 768px)and (max-width: 1024px) {
+.priceDiv-main{
+    margin-top: 54px;
+}
+.InfoPricesLayout{
+    flex-direction: row !important;
+    flex-wrap: wrap;
+
+}
+
+.InfoPricesContent.light{
+    background-color: white;
+    border: none !important;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0/0.1),0 8px 10px -6px rgb(0 0 0/0.1);
+width: 100% !important;
+/* border: 1px solid orangered !important; */
+}
+
+.InfoPricesContent{
+    width: 50% !important;
+    
+    /* border: 1px solid white; */
+    padding: 0 0.5%;
+}
+.VaulDetails{
+    flex-direction: column !important;
+}
+.DayActivity{
+    flex-wrap: wrap !important;
+    justify-content: flex-start !important;
+    flex-direction: row !important;
+
+}
+.DayActivityCon{
+    width: 49%  !important;
+}
+.FeaturesLayout{
+    flex-wrap: wrap !important;
+    border: 1px solid green;
+    gap: 0px !important;
+    
+}
+.InfoPricesContent{
+    width: 49% I !important;
+}
+
+}
+@media (min-width: 1024px)and (max-width: 1280px) {
+
+    .priceDiv-main{
+        margin-top: 54px;
+    }
+    .InfoPricesLayout{
+        flex-direction: row !important;
+        flex-wrap: wrap;
+    
+    }
+    
+    .InfoPricesContent{
+        width: 33% !important;
+        
+        /* border: 1px solid white; */
+        padding: 0 0.5%;
+    }
+    .VaulDetails{
+        flex-direction: column !important;
+    }
+    .DayActivity{
+        flex-wrap: wrap !important;
+        justify-content: flex-start !important;
+        flex-direction: row !important;
+    
+    }
+    .DayActivityCon{
+        width: 33%  !important;
+    }
+    .FeaturesLayout{
+        flex-wrap: wrap !important;
+        border: 1px solid green;
+        gap: 0px !important;
+        
+    }
+    .priceMain{
+        width: 100% !important;
+        flex-wrap: nowrap !important;
+    }
+    .InfoPricesContent{
+        width: 33% I !important;
+    }
+
+
+
+
+}
+.InfoPricesLayout.priceMain.Light{
+    background-color: white;
+    border: none;
+    box-shadow: 20px 20px 25px -5px rgb(0 0 0/0.1),0 8px 10px -6px rgb(0 0 0/0.1);
+
+}
+.InfoPricesContent.light{
+    background-color: white;
+    border: none !important;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0/0.1),0 8px 10px -6px rgb(0 0 0/0.1);
+
+}
+.InfoPricesContent{
+    border: 1px solid rgb(36, 37, 38);
+}
+.lighttt{
+    background-color: white !important;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0/0.1),0 8px 10px -6px rgb(0 0 0/0.1);
+
+}
+@media (min-width: 1280px) and (max-width: 1434px) {
+    .ActivityMain.main{
+        width: 23% !important;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1248px) {
+    .ActivityMain.main{
+        width: 23% !important;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1705px) {
+    .ActivityMain.main{
+        width: 23% !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 784px) {
+    .ActivityMain.main{
+        width: 47% !important;
+    }
+}
+.ActivityMain.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

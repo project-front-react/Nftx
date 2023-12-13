@@ -1,1 +1,1 @@
-# Nftx
+# NFTX Frontend

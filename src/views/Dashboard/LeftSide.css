@@ -1,0 +1,120 @@
+.trending{
+ background: rgb(36 37 38)
+}
+.LeftBarLight{
+    background-color: #D1D5DB;
+}
+.leftSideData{
+    background: #191a1b !important
+}
+.leftSideDataLight{
+    background-color: rgb(231 231 231);
+}
+.activity{
+    background-color:  rgb(36 37 38);
+}
+.activityLight{
+    background-color: #D1D5DB;
+
+}
+.best_apr{
+    background-color:  rgb(36 37 38);
+}
+.best_aprLight{
+    background-color: #D1D5DB;
+
+}
+@media (min-width: 376px) and (max-width: 600px) {
+    .trending {
+
+        position: unset !important;
+        /* margin-right:  20px; */
+    }
+    .activity {
+        display: none !important;
+    }
+    .best_apr {
+        display: none !important;
+    }
+    .activityLight {
+        display: none !important;
+    }
+    .best_aprLight {
+        display: none !important;
+    }
+}
+@media (min-width: 321px) and (max-width: 376px) {
+
+    .activity {
+        display: none !important;
+    }
+    .best_apr {
+        display: none !important;
+    }
+    .activityLight {
+        display: none !important;
+    }
+    .best_aprLight {
+        display: none !important;
+    }
+}
+@media (min-width: 0px) and (max-width: 321px) {
+
+    .activity {
+        display: none !important;
+    }
+    .best_apr {
+        display: none !important;
+    }
+    .activityLight {
+        display: none !important;
+    }
+    .best_aprLight {
+        display: none !important;
+    }
+}
+@media (max-width: 600px) {
+    .topcards-grid {
+        box-sizing: border-box;
+    }
+}
+.sidebar {
+    width: 310px;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 210px;
+    }
+}
+@media (max-width: 639px) {
+
+    .activity{
+        display: none;
+    }
+    .best_apr{
+        display: none;
+    }
+    .activityLight {
+        display: none !important;
+    }
+    .best_aprLight {
+        display: none !important;
+    }
+    .sidebar {
+        width: 100%;
+        height: unset;
+    }
+}
+@media (max-width: 358px) {
+    .buy_btn{
+        /* width: 238px !important; */
+        padding: 0 !important;
+        margin: 0 !important;
+        margin-top: 15px !important;
+        /* border: 2px solid white !important; */
+    }
+    .buy_btn Button{
+        font-size: 12px !important;
+    }
+}

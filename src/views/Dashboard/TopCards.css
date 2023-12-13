@@ -1,0 +1,29 @@
+/* @media only screen and (max-width: 768px) {
+    .topcards{
+        width: 380px;
+    }
+} */
+
+.topcardsss.light{
+    color: white !important;
+}
+.topcardsBlcok{
+    display:flex;
+    width:50%;
+    flex: auto;
+}
+.insider-details{
+    padding: 12px !important;
+    position: relative;
+}
+@media (min-width: 1023px) {
+    .topcardsBlcok{
+        display:flex;
+        width:100%;
+        flex: 1;
+    }
+    .insider-details{
+        padding: 24px !important;
+        position: relative;
+    }
+}

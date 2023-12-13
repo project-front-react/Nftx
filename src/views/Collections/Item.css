@@ -1,0 +1,18 @@
+.lightCardBuy{
+    box-shadow: 0 20px 25px -5px rgb(0 0 0/0.1),0 8px 10px -6px rgb(0 0 0/0.1) !important;
+    
+}
+.buyCardss{
+   border-color: rgb(36 37 38) !important;
+ background-color: rgb(25 26 27) !important
+}
+.typoRemoveStyle{
+/* color: rgb(209 213 219) !
+important; */
+text-decoration: none !important;
+font-style: none;
+border: none !important;
+}
+.textDecoNone{
+  text-decoration: none !important;
+}

@@ -1,0 +1,102 @@
+.sub-head-heroReward{
+    background: #242526 !important
+}
+.sub-head-heroReward-light{
+    background-color: white !important;
+}
+.MainHeroRewDashLight{
+background-color: #E7E7E7;
+}
+.MainRightCon.Light{
+    background-color: #E7E7E7 !important;
+}
+.ActivityLeftConLight{
+    background-color: #F7F7F6;
+}
+.activtyRightDataLight{
+    background-color: #FAFAFA !important;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0/0.1),0 8px 10px -6px rgb(0 0 0/0.1);
+}
+.MainPoolReward.Light{
+    background-color: #E7E7E7 !important;
+
+}
+.poolProductDataLight{
+    background-color: white !important;
+}
+@media (max-width: 1024px) {
+    .MainRewardContainer {
+        display: flex;
+        flex-direction: column !important;
+    }
+    .MainRightCon {
+        width: 100% !important;
+    }
+    .ActivityLeftCon {
+        width: 100% !important;
+    }
+    .ActivityLeftConLight{
+        width: 100% !important;
+    }
+}
+@media (max-width: 400px) {
+    .btnExplPool Button {
+        width: 300px;
+        height: 50px;
+    }
+}
+.sub-head-btns Button:hover {
+    border-color: 1px solid rgb(233, 34, 77);
+}
+.stakers {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(20, 184, 166, 1) 0%, rgba(168, 85, 247, 1) 100%);
+    height: 8px;
+    width: 100%;
+    margin: 6px 0px;
+}
+.aprFirst {
+    background: linear-gradient(90deg, rgba(255, 109, 63, 1) 0%, rgba(251, 59, 112, 1) 100%);
+    font-weight: 650;
+    background-clip:  text;
+    font-size: 13.5px !important;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.aprSecond{
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(20, 184, 166, 1) 0%, rgba(168, 85, 247, 1) 100%);
+    background-clip:  text;
+    font-size: 13.5px !important;
+
+    font-weight: 650;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fontSmallgrey{
+    font-size: .75rem  !important;
+    color: rgb(150, 151, 155);
+    font-weight: 750  !important;
+}
+.boldText{
+    font-weight: 750 !important;
+    font-size: 13.5px !important;
+}
+.dActivity{
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(20, 184, 166, 1) 0%, rgba(168, 85, 247, 1) 100%);
+    height: 8px;
+    width: 100%;
+    margin: 6px 0px;
+}
+.hrGrey{
+   
+    border: 1px solid rgb(75, 85, 99);
+}
+.container_Pools{
+
+    display: flex !important;
+    flex-direction: row !important;
+    width: 100% !important;
+    flex-wrap: wrap;
+    padding: 0 10px;
+}

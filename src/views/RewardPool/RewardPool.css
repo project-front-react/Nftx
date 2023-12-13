@@ -1,0 +1,70 @@
+@media (max-width: 640px) {
+    .searchPool {
+        width: 100%;
+    }
+    .dropDownPool {
+        margin: 20px 0px -10px 0 !important;
+    }
+    .searchAndDropDown {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+    }
+    .poolProduct{
+        width: 100% !important;
+
+    }
+    .MainPoolContainer{
+        display: flex !important;
+        height: unset !important;
+        flex-direction: column !important;
+    }
+    .MainRightCon{
+        width: 100% !important;
+    }
+    .ActivityLeftCons{
+        width: 100% !important;
+    }
+}
+
+
+
+@media (min-width: 640px) and (max-width: 768px){
+
+    .poolProduct{
+        width: 50% !important;
+
+    }
+    .MainPoolContainer{
+        display: flex !important;
+        height: unset !important;
+        flex-direction: column !important;
+    }
+    .MainRightCon{
+        width: 100% !important;
+    }
+    .ActivityLeftCons{
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1054px){
+
+    .poolProduct{
+        width: 33% !important;
+
+    }
+    .MainPoolContainer{
+        display: flex !important;
+        height: unset !important;
+        flex-direction: column !important;
+    }
+    .MainRightCon{
+        width: 100% !important;
+    }
+    .ActivityLeftCons{
+        width: 100% !important;
+    }
+}
+
+

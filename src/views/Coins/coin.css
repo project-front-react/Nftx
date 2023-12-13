@@ -1,0 +1,38 @@
+@media (max-width: 1024px) {
+    .coin_btns{
+        /* display: flex; */
+        flex-direction: column;
+        /* margin: 100px; */
+    }
+    .coin_btns Button{
+        margin: 10px;
+
+    }
+    .coinSellBtn{
+        margin-left: -0px !important;
+    }
+}
+@media (max-width: 650px) {
+    .CoinPage{
+        margin-left: -60px  !important;
+    }
+}
+.coinLightData{
+    background-color:#E7E7E7 !important
+    ;
+    border-collapse: 'collapse';
+
+    border: 2px solid white !important;
+}
+.coinLight{
+    /* background-color:  !important; */
+  background: rgb(25 26 27) !important
+
+}
+.CoinPage.light{
+     background: #f7f6f6 !important;
+}
+.CoinPagewrap.light{
+    background-color: white;
+    
+}

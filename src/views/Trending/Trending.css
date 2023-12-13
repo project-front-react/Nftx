@@ -1,0 +1,43 @@
+.faded-bg{
+    position: relative;
+
+}
+
+.faded-bg::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,0) 20%, rgba(18, 18, 18, 1) 80%);
+    width: 150px;
+    height: 102%;
+}
+.faded-bg::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: rgb(2,0,36);
+    background: linear-gradient(270deg, rgba(2,0,36,0) 0%, rgb(18 18 18) 80%);
+    width: 150px;
+    height: 100%;
+    z-index: 99;
+}
+
+@media (max-width:1024px) {
+    .faded-bg::after {
+        height: 254px;
+    }
+    .faded-bg::before {
+        height: 254px;
+    }
+}
+@media (max-width:768px) {
+    .faded-bg::after {
+        width: 75px;
+    }
+    .faded-bg::before {
+        width: 75px;
+    }
+}
